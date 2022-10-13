@@ -257,7 +257,7 @@ body{
     height: 404px;
 }
 .portfolio-card-text-container{
-    margin: 20px 24px;
+    margin: 24px 24px 24px 24px;
 }
 .portfolio-card-title{
     font-family: 'Roboto';
@@ -277,3 +277,43 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+.icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    stroke-width: 1;
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+    padding-left: 12px;
+    padding-top: 12px;
+  }
+  .icon:hover{
+    stroke:#2196F3;
+    fill: #2196F3;
+  }
+  .footer-icon-container{
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+  .footer-icon-container:hover{
+    background-color: #2196F3;
+  }
+  .portfolio-card-img-overlay-container{
+    display: none;
+    position: absolute;
+    background-color: #2195f3cf;
+  }
+  .portfolio-card-img-overlay-text{
+    
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .portfolio-card-container:hover .portfolio-card-img-overlay-container{
+    display: block;
+  }
